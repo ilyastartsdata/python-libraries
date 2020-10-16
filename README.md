@@ -24,11 +24,9 @@ Course from Geekbrains University
 
 ## Installing / Getting started
 
-### Installation on Mac OS X
+### Getting started with Jupyter Notebook
 
-Before installing MySQL on Mac OS X, you should install Command Line Tools for XCode from the AppStore. 
-
-XCode is an integrated application development environment for Mac OS X and iOS. 
+Python programmes can be launched in two main ways.
 
 ## Contributing
 
