@@ -1,6 +1,8 @@
 ![Geekbrains Logo](https://github.com/ilyastartsdata/introductiontopython/blob/master/gb.png)
 
-# Python libraries for Data Science: Numpy, Matplotlib, Scikit-learn.
+# Python libraries for Data Science
+
+## Numpy, Matplotlib, Scikit-learn
 
 Course from Geekbrains University
 
