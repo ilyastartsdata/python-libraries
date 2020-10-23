@@ -82,8 +82,67 @@ In the resulting covariance matrix (2x2 Numpy array), the covariance value sough
 
 #### Ru
 
+Импортируйте библиотеку Pandas и дайте ей псевдоним pd. 
+
+Создайте датафрейм authors со столбцами author_id и author_name, в которых соответственно содержатся данные: [1, 2, 3] и ['Тургенев', 'Чехов', 'Островский'].
+
+Затем создайте датафрейм book cо столбцами author_id, book_title и price, в которых соответственно содержатся данные: 
+[1, 1, 1, 2, 2, 3, 3], ['Отцы и дети', 'Рудин', 'Дворянское гнездо', 'Толстый и тонкий', 'Дама с собачкой', 'Гроза', 'Таланты и поклонники'], [450, 300, 350, 500, 450, 370, 290].
 
 #### En
+
+Import the Pandas library and give it the nickname pd. 
+
+Create a dateframe with the author_id and author_name columns, which contain the data respectively: [1, 2, 3] and ['Turgenev', 'Chekhov', 'Ostrovsky'].
+
+Then create a dateframe book with the author_id, book_title and price columns, which contain the data respectively: 
+[1, 1, 1, 2, 2, 3, 3], ['Fathers and Children', 'Rudin', 'Noble Nest', 'Fat and Thin', 'Lady with a Dog', 'Thunderstorm', 'Talents and Admirers'], [450, 300, 350, 500, 450, 370, 290].
+
+## Task 2
+
+#### Ru
+
+Получите датафрейм authors_price, соединив датафреймы authors и books по полю author_id.
+
+#### En
+
+Get the authors_price dataframe by linking the authors and books data frames to the author_id field.
+
+## Task 3
+
+#### Ru
+
+Создайте датафрейм top5, в котором содержатся строки из authors_price с пятью самыми дорогими книгами.
+
+#### En
+
+Create a top5 dataframe containing the lines from authors_price with the five most expensive books.
+
+## Task #4
+
+#### Ru
+
+Создайте датафрейм authors_stat на основе информации из authors_price. В датафрейме authors_stat должны быть четыре столбца: author_name, min_price, max_price и mean_price, в которых должны содержаться соответственно имя автора,минимальная, максимальная и средняя цена на книги этого автора.
+
+#### En
+
+Create a dataframe authors_stat based on information from authors_price. The authors_stat dateframe should have four columns: author_name, min_price, max_price and mean_price, which should contain, respectively, the name of the author, the minimum, maximum and average price of the books of this author.
+
+## Task #5 (Optional)
+
+#### Ru
+
+Создайте новый столбец в датафрейме authors_price под названием cover, в нем будут располагаться данные о том, какая обложка у данной книги - твердая или мягкая. В этот столбец поместите данные из следующего списка:
+['твердая', 'мягкая', 'мягкая', 'твердая', 'твердая', 'мягкая', 'мягкая'].
+Просмотрите документацию по функции pd.pivot_table с помощью вопросительного знака.Для каждого автора посчитайте суммарную стоимость книг в твердой и мягкой обложке. Используйте для этого функцию pd.pivot_table. При этом столбцы должны называться "твердая" и "мягкая", а индексами должны быть фамилии авторов. Пропущенные значения стоимостей заполните нулями, при необходимости загрузите библиотеку Numpy.
+Назовите полученный датасет book_info и сохраните его в формат pickle под названием "book_info.pkl". Затем загрузите из этого файла датафрейм и назовите его book_info2. Удостоверьтесь, что датафреймы book_info и book_info2 идентичны.
+
+#### En
+
+Create a new column in the authors_price dataframe called cover, which will contain information about whether the cover of a given book is hard or soft. Place data from the following list in this column:
+['hard', 'soft', 'soft', 'hard', 'hard', 'soft'].
+Review the documentation for the pd.pivot_table function with the question mark. For each author, calculate the total value of hard and softcover books. Use the pd.pivot_table function for this. The columns should be called "hard" and "soft", and the indexes should be the names of the authors. Fill in the missing cost values with zeros and download the Numpy library if necessary.
+Name the book_info dataset you have received and save it in the pickle format called "book_info.pkl". Then download the dataset from this file and name it book_info2. Make sure that the dateframes book_info and book_info2 are identical.
 
 # Contributing
 
