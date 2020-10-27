@@ -102,11 +102,31 @@ Vertical and horizontal gaps between charts should be 0.3.
 
 #### Ru
 
+В этом задании мы будем работать с датасетом, в котором приведены данные по мошенничеству с кредитными данными: Credit Card Fraud Detection (информация об авторах: Andrea Dal Pozzolo, Olivier Caelen, Reid A. Johnson and Gianluca Bontempi. Calibrating Probability with Undersampling for Unbalanced Classification. In Symposium on Computational Intelligence and Data Mining (CIDM), IEEE, 2015).
 
+Ознакомьтесь с описанием и скачайте датасет creditcard.csv с сайта Kaggle.com по ссылке:
+https://www.kaggle.com/mlg-ulb/creditcardfraud
+
+Данный датасет является примером несбалансированных данных, так как мошеннические операции с картами встречаются реже обычных.
+
+Импортруйте библиотеку Pandas, а также используйте для графиков стиль “fivethirtyeight”.
+Посчитайте с помощью метода value_counts количество наблюдений для каждого значения целевой переменной Class и примените к полученным данным метод plot, чтобы построить столбчатую диаграмму. Затем постройте такую же диаграмму, используя логарифмический масштаб.
+
+На следующем графике постройте две гистограммы по значениям признака V1 - одну для мошеннических транзакций (Class равен 1) и другую - для обычных (Class равен 0). Подберите значение аргумента density так, чтобы по вертикали графика было расположено не число наблюдений, а плотность распределения. Число бинов должно равняться 20 для обеих гистограмм, а коэффициент alpha сделайте равным 0.5, чтобы гистограммы были полупрозрачными и не загораживали друг друга. Создайте легенду с двумя значениями: “Class 0” и “Class 1”. Гистограмма обычных транзакций должна быть серого цвета, а мошеннических - красного. Горизонтальной оси дайте название “Class”.
 
 #### En
 
+In this task we will work with a dataset that contains data on credit fraud: Credit Card Fraud Detection (information on authors: Andrea Dal Pozzolo, Olivier Caelen, Reid A. Johnson and Gianluca Bontempi. Calibrating Probability with Undersampling for Unbalanced Classification. In Symposium on Computational Intelligence and Data Mining (CIDM), IEEE, 2015).
 
+Read the description and download the creditcard.csv dataset from Kaggle.com by clicking here:
+https://www.kaggle.com/mlg-ulb/creditcardfraud.
+
+This dataset is an example of unbalanced data, as fraudulent card transactions are less common.
+
+Import the Pandas library and also use the "fivethirtyeight" style for graphics.
+Calculate the number of observations for each value of the target Class variable using the value_counts method and apply the plot method to the data obtained to build a bar graph. Then build a similar diagram using a logarithmic scale.
+
+In the next graph, build two bar charts based on V1 values - one for fraudulent transactions (Class is 1) and the other for normal transactions (Class is 0). Select the value of the density argument so that the vertical of the graph is not the number of observations, but the density of the distribution. The number of bins should be 20 for both histograms, and make the alpha coefficient 0.5 so that the histograms are semi-transparent and do not block each other. Create a legend with two values: "Class 0" and "Class 1". The histogram of ordinary transactions should be grey and the histogram of fraudulent transactions should be red. Give the name "Class" to the horizontal axis.
 
 # Contributing
 
