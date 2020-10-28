@@ -1,4 +1,4 @@
-# Homework #1 :atom:
+# Homework #1_2 :atom:
 
 Homework for the class **'Calculations with Numpy. Working with data in Pandas'**
 
