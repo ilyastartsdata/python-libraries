@@ -28,9 +28,20 @@ Python libraries for Data Science
       - Matrix Identifier
       - Matrix Rank
 
-# Data Science Project
+---
 
+# Data Science Project (steps discussed)
 
+  1. Problem definition
+  2. Obtaining of data
+  3. Data analysis
+  4. Data visualisation
+  5. Pre-processing of data
+  6. Generation of new features
+  7. Model building
+  8. Quality assessment
+  9. Introduction of the model
+  10. Quality monitoring and model improvement
 
 
 # Contributing
