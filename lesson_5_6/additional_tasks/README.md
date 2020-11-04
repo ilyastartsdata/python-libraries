@@ -19,16 +19,16 @@ Python libraries for Data Science
 
 #### En
 
-- Download the Wine dataset from the built-in sklearn.datasets using the load_wine function to the variable data.
-- The dataset received is not a dataframe. It is a data structure that has keys similar to a dictionary. Look at the data type of this data structure and create a list of data_keys containing its keys
+- Download the Wine dataset from the built-in ```sklearn.datasets``` using the ```load_wine``` function to the variable data.
+- The dataset received is not a dataframe. It is a data structure that has keys similar to a dictionary. Look at the data type of this data structure and create a list of ```data_keys``` containing its keys
 - Look at the data, description and names of the attributes on the data sheet. The description should be displayed as a familiar, neatly arranged text, without line breaks, but with the line breaks themselves, etc.
 - How many classes does the target variable in the dataset contain? Print the class names.
-- Based on the data from the dataset (contained in the Numpy 2D array) and the names of the attributes, create a dataset frame called X
-- Find out the size of the dateframe X and determine if there are any missing values in it
-- Add to the dateframe a field with wine classes in the form of numbers that have the data type numpy.int64. The name of the field is 'target'.
-- Build a correlation matrix for all X fields. Give the resulting dataframe the name X_corr
-- Create a list of high_corr features whose correlation with the target field by an absolute value exceeds 0.5 (and the target field itself should not be included in this list).
-- Remove the field with the target variable from dateframe X. For all features whose names are contained in the high_corr list, calculate a square of their values and add the corresponding fields with the suffix '_2' added to the original feature name to the dateframe X. The resulting dataphragm must contain all fields that were originally in it, as well as fields with high_corr traits in the square. Output a description of the fields in the dateframe X using the method describe
+- Based on the data from the dataset (contained in the ```Numpy 2D array```) and the names of the attributes, create a dataset frame called ```X```
+- Find out the size of the dateframe ```X``` and determine if there are any missing values in it
+- Add to the dateframe a field with wine classes in the form of numbers that have the data type ```numpy.int64```. The name of the field is ```'target'```.
+- Build a correlation matrix for all ```X``` fields. Give the resulting dataframe the name ```X_corr```
+- Create a list of ```high_corr``` features whose correlation with the target field by an absolute value exceeds 0.5 (and the ```target``` field itself should not be included in this list).
+- Remove the field with the target variable from dateframe ```X```. For all features whose names are contained in the ```high_corr``` list, calculate a square of their values and add the corresponding fields with the suffix '_2' added to the original feature name to the dateframe ```X```. The resulting dataframe must contain all fields that were originally in it, as well as fields with ```high_corr``` traits in the square. Output a description of the fields in the dateframe ```X``` using the method ```describe```
 
 # Contributing
 
