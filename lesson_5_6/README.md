@@ -123,7 +123,45 @@ Use this attribute to find the sum of all importance indicators, set which two i
 
 #### En
 
+In this task we will be working with the dataset, which we are already familiar with from the Matplotlib library homework, the Credit Card Fraud Detection dataset.
 
+For this dataset, we will solve the task of classification - we will determine which credit card transactions are fraudulent. This dataset is highly unbalanced (as fraud cases are relatively rare), so the use of the accuracy metric will not be helpful and will not help us choose the best model.
+
+We will calculate the AUC, which is the area under the ROC curve.
+
+- Import from the corresponding modules RandomForestClassifier, GridSearchCV and train_test_split.
+- Download the dataset creditcard.csv and create the dataframe df.
+- Using the value_counts method with the normalize=True argument, make sure that the sample is unbalanced. Using the info method, check that all columns contain numerical data and that there are no omissions. Apply the following setting so that you can view all columns of the dateframe (pd.options.display.max_columns = 100).
+- Look through the first 10 rows of the dateframe df.
+- Create the dateframe X from the dateframe df by deleting the column Class.
+- Create a Series object called y from the Class column.
+- Break down X and y into training and test datasets using the train_test_split function, using arguments: test_size=0.3, random_state=100, stratify=y.
+
+You should get objects X_train, X_test, y_train and y_test.
+
+Take a look at their form.
+
+To search the grid of parameters, set these parameters:
+  - parameters = [{'n_estimators': [10, 15],
+  - 'max_features': np.arange(3, 5),
+  - 'max_depth': np.arange(4, 7)}].
+
+Create a GridSearchCV model with the following arguments:
+- Creator=RandomForestClassifier (random_state=100),
+- param_grid=parameters,
+- scoring='roc_auc',
+- cv=3.
+
+Train the model on a training data set (may take several minutes).
+
+View the parameters of the best model using the attribute best_params_.
+
+Predict class probabilities using the resulting model and predict_proba method.
+
+From the result obtained (Numpy array), select the column with index 1 (class 1 probability) and write into the y_pred_proba array. 
+From the sklearn.metrics module, import the roc_auc_score metric.
+
+Calculate the AUC on the test data and compare it with the result obtained on the training data using the arrays y_test and y_pred_proba as arguments.
 
 # Contributing
 
