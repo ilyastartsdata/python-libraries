@@ -25,6 +25,15 @@ Python libraries for Data Science
 
 ---
 
+## EDA - Exploratory Data Analysis
+
+_Kaggle House Prices: Advanced Regression Techniques competition:_
+
+- Short EDA [beginner's tutorial](https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python)
+- Extended EDA [master's tutorial](https://www.kaggle.com/pavansanagapati/a-simple-tutorial-on-exploratory-data-analysis) 
+
+---
+
 ## Useful functions
 
 ### Reduce memory usage
