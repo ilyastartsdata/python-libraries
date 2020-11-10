@@ -2,27 +2,28 @@
 
 # Notes from lesson - Webinar 3
 
-## Python libraries for Data Science
+Notes for the lesson **'Data visualization and analysis'**
 
-Course from Geekbrains University
+Python libraries for Data Science
 
-> About Geekbrains: We teach people to master programming, web design and marketing from the ground up. We conduct online courses with internships and free master classes, develop the community, cooperate with employment companies and continuously test new methods to improve the effectiveness of learning.
-
-## List of topics
+# Lesson plan
 
 - EDA
 - Data Upload
 - Decrease the amount of memory that takes up the dataset
-- 1. Distribution of the target variable
-- 2. Features Analysis
-    - 2.1 Quantitative features
-    - 2.2 Categorical features
-    - 2.3 Binary features
-    - 2.4 Correlation Matrix
-- 3. Analysis of correlation target from features
-    - 3.1 Quantitative features
-    - 3.2 Categorical / binary features
-    - 3.3 Geodata
+1. Distribution of the target variable
+2. Features Analysis
+    - Quantitative features
+    - Categorical features
+    - Binary features
+    - Correlation Matrix
+ 3. Analysis of correlation target from features
+    - Quantitative features
+    - Categorical / binary features
+    - Geodata
+
+
+---
 
 ## Useful functions
 
