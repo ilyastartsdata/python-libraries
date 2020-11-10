@@ -98,6 +98,13 @@ plt.title('Correlation matrix')
 plt.show()
 ```
 
+---
+
+## Result
+
+![California](https://github.com/ilyastartsdata/python_libraries/blob/main/lesson_5_6/notes_from_lesson/california.png)
+Link: https://github.com/ilyastartsdata/python_libraries/blob/main/lesson_5_6/notes_from_lesson/california.html
+
 ## Contributing
 
 Pull requests are welcome.
