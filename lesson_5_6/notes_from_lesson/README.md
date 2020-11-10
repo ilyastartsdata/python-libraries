@@ -10,19 +10,19 @@ Course from Geekbrains University
 
 ## List of topics
 
-- [EDA]
-- [Data Upload]
-- [Decrease the amount of memory that takes up the dataset]
-- [1. Distribution of the target variable]
-- [2. Features Analysis]
-    - [2.1 Quantitative features]
-    - [2.2 Categorical features]
-    - [2.3 Binary features]
-    - [2.4 Correlation Matrix]
-- [3. Analysis of correlation target from features]
-    - [3.1 Quantitative features]
-    - [3.2 Categorical / binary features]
-    - [3.3 Geodata]
+- EDA
+- Data Upload
+- Decrease the amount of memory that takes up the dataset
+- 1. Distribution of the target variable
+- 2. Features Analysis
+    - 2.1 Quantitative features
+    - 2.2 Categorical features
+    - 2.3 Binary features
+    - 2.4 Correlation Matrix
+- 3. Analysis of correlation target from features
+    - 3.1 Quantitative features
+    - 3.2 Categorical / binary features
+    - 3.3 Geodata
 
 ## Useful functions
 
