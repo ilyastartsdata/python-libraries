@@ -11,13 +11,13 @@ Python libraries for Data Science
 - EDA
 - Data Upload
 - Decrease the amount of memory that takes up the dataset
-1. Distribution of the target variable
-2. Features Analysis
+- Distribution of the target variable
+- Features Analysis
     - Quantitative features
     - Categorical features
     - Binary features
     - Correlation Matrix
- 3. Analysis of correlation target from features
+ - Analysis of correlation target from features
     - Quantitative features
     - Categorical / binary features
     - Geodata
