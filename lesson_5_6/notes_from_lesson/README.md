@@ -38,7 +38,7 @@ _Kaggle House Prices: Advanced Regression Techniques competition:_
 
 ### Reduce memory usage
 
-> Kaggle: https://www.kaggle.com/gemartin/load-data-reduce-memory-usage
+> Source: https://www.kaggle.com/gemartin/load-data-reduce-memory-usage
 
 ```python3
 def reduce_mem_usage(df):
@@ -80,6 +80,23 @@ def reduce_mem_usage(df):
     return df
 ```
 
+
+### Correlation matrix
+
+```python3
+plt.figure(figsize = (15,10))
+
+sns.set(font_scale = 1.4)
+
+corr_matrix = df.corr()
+corr_matrix = np.round(corr_matrix, 2)
+corr_matrix[np.abs(corr_matrix) < 0.3] = 0
+
+sns.heatmap(corr_matrix, annot=True, linewidths = .5, cmap = 'coolwarm')
+
+plt.title('Correlation matrix')
+plt.show()
+```
 
 ## Contributing
 
