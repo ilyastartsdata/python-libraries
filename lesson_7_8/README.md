@@ -2,7 +2,7 @@
 
 # Notes from lesson - Webinar 3
 
-## Numpy, Matplotlib, Scikit-learn
+## Python libraries for Data Science
 
 Course from Geekbrains University
 
