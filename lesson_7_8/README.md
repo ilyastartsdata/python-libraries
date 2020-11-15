@@ -44,11 +44,23 @@ Build a scatter plot on this data.
 
 #### Ru
 
+С помощью ```KMeans``` разбейте данные из тренировочного набора на 3 кластера, используйте все признаки из датафрейма ```X_train```.
 
+Параметр ```max_iter``` должен быть равен 100, ```random_state``` сделайте равным 42.
+
+Постройте еще раз диаграмму рассеяния на данных, полученных с помощью ```TSNE```, и раскрасьте точки из разных кластеров разными цветами.
+
+Вычислите средние значения ```price``` и ```CRIM``` в разных кластерах.
 
 #### En
 
+Use ```KMeans``` to break down the data from the training kit into 3 clusters, use all features from the dataframe ```X_train```.
 
+The parameter ```max_iter``` should be 100, ```random_state``` make it 42.
+
+Draw the scatter plot again on the data from ```TSNE``` and colour the points from the different clusters.
+
+Calculate the average values of ```price``` and ```CRIM``` in the different clusters.
 
 ## Task #3 (Optional)
 
