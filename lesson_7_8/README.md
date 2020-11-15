@@ -66,11 +66,15 @@ Calculate the average values of ```price``` and ```CRIM``` in the different clus
 
 #### Ru
 
+Примените модель ```KMeans```, построенную в предыдущем задании, к данным из тестового набора.
 
+Вычислите средние значения ```price``` и ```CRIM``` в разных кластерах на тестовых данных.
 
 #### En
 
+Apply the ```KMeans``` model built in the previous task to data from the test set.
 
+Calculate average ```price``` and ```CRIM``` values in different clusters on the test data.
 
 # Contributing
 
