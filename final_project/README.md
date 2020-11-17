@@ -22,6 +22,15 @@ The evaluation metric is Coefficient of determination: R^2 = 1 - (delta)^2/(delt
 
 Source: https://en.wikipedia.org/wiki/Coefficient_of_determination
 
+## Data
+
+### File descriptions
+
+- train.csv - the training set
+- test.csv - the test set
+- sampleSubmission.csv - a sample submission file in the correct format
+
+
 ## Contributing
 
 Pull requests are welcome.
