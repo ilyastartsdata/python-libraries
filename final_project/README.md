@@ -16,9 +16,11 @@ In this competition your task will be to predict the price of flats in test.csv.
 
 ### Evaluation
 
-The evaluation metric is Coefficient of determination: R2 = 1 - 
+The evaluation metric is Coefficient of determination: R^2 = 1 - (delta)^2/(delta_y)^2
 
+> In statistics, the coefficient of determination, denoted R2 or r2 and pronounced "R squared", is the proportion of the variance in the dependent variable that is predictable from the independent variable(s).
 
+Source: https://en.wikipedia.org/wiki/Coefficient_of_determination
 
 ## Contributing
 
