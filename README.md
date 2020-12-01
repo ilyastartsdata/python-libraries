@@ -8,7 +8,11 @@ Course from Geekbrains University
 
 > About Geekbrains: We teach people to master programming, web design and marketing from the ground up. We conduct online courses with internships and free master classes, develop the community, cooperate with employment companies and continuously test new methods to improve the effectiveness of learning.
 
-## List of topics
+---
+
+## List of topics 
+
+**Part 1**
 
 1. Webinar. Introduction to the course
 2. Video lesson. Calculations with Numpy, working with data in Pandas
@@ -21,6 +25,15 @@ Course from Geekbrains University
 9. Webinar. Studying without a teacher at Scikit-learn and introduction to the final project
 10. Webinar. Consultation on the final project
 11. Final Project
+
+**Part 2**
+
+1. Webinar. Introduction to the classification task, task definition and data preparation
+2. Webinar. Data analysis and statistical hypothesis testing
+3. Webinar. Building a classification model
+4. Webinar. Evaluation and interpretation of the model obtained, discussion of the course project
+
+---
 
 ## Installing / Getting started
 
