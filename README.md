@@ -1,6 +1,6 @@
 ![Geekbrains Logo](https://github.com/ilyastartsdata/introductiontopython/blob/master/gb.png)
 
-# Python libraries for Data Science
+# Python libraries for Data Science (1 & 2)
 
 ## Numpy, Matplotlib, Scikit-learn
 
