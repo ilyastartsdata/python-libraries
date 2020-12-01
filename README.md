@@ -31,7 +31,8 @@ Course from Geekbrains University
 1. Webinar. Introduction to the classification task, task definition and data preparation
 2. Webinar. Data analysis and statistical hypothesis testing
 3. Webinar. Building a classification model
-4. Webinar. Evaluation and interpretation of the model obtained, discussion of the course project
+4. Webinar. Evaluation and interpretation of the model obtained, discussion of the final project
+5. Final Project
 
 ---
 
