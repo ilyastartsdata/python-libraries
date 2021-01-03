@@ -51,6 +51,53 @@ The evaluation metric for this competition is Mean F1-Score.
 - **Credit Score** - score
 - **Credit Default** - either the credit was repaid on time (0) or delayed (1)
 
+## Libraries
+
+```python3
+# functional
+
+import pandas as pd
+import numpy as np
+import pickle
+
+# sklearn
+
+# model_selection
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import learning_curve
+from sklearn.model_selection import ShuffleSplit
+from sklearn.model_selection import KFold
+from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import RandomizedSearchCV
+
+# linear_model
+from sklearn.linear_model import LogisticRegression
+
+# neighbors
+from sklearn.neighbors import KNeighborsClassifier
+
+# metrics
+from sklearn.metrics import classification_report
+from sklearn.metrics import f1_score
+from sklearn.metrics import precision_score
+from sklearn.metrics import recall_score
+
+# gb
+
+import xgboost as xgb
+import lightgbm as lgbm
+import catboost as catb
+
+# visualization
+
+import seaborn as sns
+from matplotlib import pyplot as plt
+
+# params
+%matplotlib inline
+```
+
 ## Contributing
 
 Pull requests are welcome.
