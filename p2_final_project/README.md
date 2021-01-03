@@ -18,7 +18,7 @@ In this competition your task will be to predict the Credit Default in test.csv.
 
 The evaluation metric for this competition is Mean F1-Score.
 
-<center>$\large F1 = 2\LARGE \frac{p \: * \: r}{p \: + \: r} \:\: \small where \:\: \large p = \LARGE \frac{tp}{tp \: + \: fp}, \:\:\:\:\: \large r = \LARGE \frac{tp}{tp \: + \: fn}$<center>
+<img src="https://github.com/ilyastartsdata/python_libraries/blob/main/p2_final_project/mean.png" width="500">
 
 > The F1 metric weights recall and precision equally, and a good retrieval algorithm will maximize both precision and recall simultaneously. Thus, moderately good performance on both will be favored over extremely good performance on one and poor performance on the other.
 
